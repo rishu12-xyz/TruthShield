@@ -3,10 +3,6 @@ from PIL import Image, ImageChops, ImageEnhance
 import io
 import re
 import numpy as np
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
 
 # Configure the Streamlit page
 st.set_page_config(
